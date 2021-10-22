@@ -3,11 +3,11 @@
 Calico устанавливалась с помощью ansible/kubespray из прошлого домашнего задания.  
  
 Настройка политики доступа к hello world:  
-Сперва всё запретим   
+Сперва всё запретим    [no-hello](https://github.com/Kostromin-Mixa/12-kubernetes-05-cni/blob/main/no-hello.yaml)   
 ![2021-10-22_09-42-48](https://user-images.githubusercontent.com/78191008/138410919-250fa40d-e5cc-4f15-b6b4-e2a0a8075030.png)  
 И проверим   
 ![2021-10-22_09-44-04](https://user-images.githubusercontent.com/78191008/138411103-ccc0d3cf-a50a-44d2-9247-ed982d564f83.png)  
-А теперь разрешим входящие и исходящие соединения   
+А теперь разрешим входящие и исходящие соединения [yes-hello](https://github.com/Kostromin-Mixa/12-kubernetes-05-cni/blob/main/yes-hello.yaml)   
 ![2021-10-22_09-46-04](https://user-images.githubusercontent.com/78191008/138411278-182d9394-b057-4d6f-9625-2e35c9959c10.png)  
 
 Задание 2: изучяем, что запущено по умолчанию.  
